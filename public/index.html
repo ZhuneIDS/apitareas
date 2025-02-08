@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Tareas</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <h1 class="header">API de Tareas</h1>
+
+    <div class="controls">
+        <button id="openLoginModal">Iniciar Sesión</button>
+        <button id="openRegisterModal">Registrar Usuario</button>
+        <button id="openTaskModal">Nueva tarea</button>
+    </div>
+
+    <!-- botton de logeo -->
+    <!-- Login Button -->
+    <button id="openLoginModal">Iniciar Sesión</button>
+
+    <!-- Modal Placeholder -->
+    <div id="loginModalContainer"></div>
+
+
+    <!-- botton de logeo -->
+    <div id="logoutSection" style="display: none;">
+        <button id="logoutButton">Cerrar Sesión</button>
+    </div>
+
+    <!-- formulario de registro -->
+    <!-- Register Button -->
+    <button id="openRegisterModal">Registrar Usuario</button>
+    <!-- Modal Placeholder -->
+    <div id="modalContainer"></div>
+    <div id="registerModalContainer"></div>
+    
+
+    <!-- formulario de tarea -->
+    <!-- Document Upload Button -->
+    <button id="openTaskModal">Nueva tarea</button>
+
+    <!-- task Modal Placeholder -->
+    <div id="taskModalContainer"></div>
+
+
+    <!-- lista de tareas-->
+    <h2>Lista de Tareas</h2>
+    <div id="taskList"></div>
+
+    <!-- Edit Task Modal Placeholder -->
+    <div id="editTaskModalContainer"></div>
+
+    <script src="app.js" defer></script>
+</body>
+
+</html>

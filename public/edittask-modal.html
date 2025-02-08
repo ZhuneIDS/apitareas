@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="editTaskModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Editar Tarea desde Modal</h2>
+            <form id="editTaskForm">
+                <input type="hidden" id="editTaskId"> <!-- task ID -->
+                <label for="editTaskTitle">Título</label>
+                <input type="text" id="editTaskTitle" required>
+    
+                <label for="editTaskDescription">Descripción</label>
+                <textarea id="editTaskDescription" required></textarea>
+    
+                <button type="submit">Actualizar</button>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
